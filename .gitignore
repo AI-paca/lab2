@@ -1,0 +1,17 @@
+.env
+.venv/
+.vscode/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Generated benchmark data
+tests/data/
+debag/data/
+
+# Generated release archives
+*.zip
+*.tar.gz
+*.pdf
+*.docx

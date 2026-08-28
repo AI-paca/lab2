@@ -1,0 +1,8 @@
+# Для запуска бенчмарков (python tests/run_test.py) — зависимости не нужны!
+# Все алгоритмы и runner используют только встроенные модули Python
+
+# Для генерации графиков:
+pandas
+matplotlib
+numpy
+nbconvert

@@ -1,0 +1,14 @@
+services:
+  lab2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: lab2:latest
+    user: "${UID:-1000}:${GID:-1000}"  
+    volumes:
+      - ./:/app                        
+    environment:
+      - TERM=xterm-256color
+      - FORCE_COLOR=1
+      - HOME=/tmp                
+    command: ["./scripts/run_tests.sh", "-run", "-all"]

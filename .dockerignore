@@ -1,0 +1,15 @@
+.venv
+__pycache__
+*/__pycache__
+.git
+.gitignore
+*.pyc
+.pytest_cache
+*.egg-info
+*.tar.gz
+release.zip
+scripts/release.sh
+*.docx
+debag
+.dockerignore
+.dockerenv
